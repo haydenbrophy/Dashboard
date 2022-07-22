@@ -66,13 +66,12 @@ altitude = ["Altitude [ft]", altitude];
 
 totalData = [altitude', windDirection', windSpeed'];
 
-A = str2double(windSpeed(2:13)');
-B = str2double(windSpeed(13:24)');
-C = str2double(windSpeed(24:30)');
-D = str2double(windSpeed(30:33)');
+A = str2num(windSpeed(2:11));
+B = windSpeed(12:21);
+C = windSpeed(22:31);
 
-maxes = [max(A),max(B),max(C),max(D)];
+maxes = [max(A),max(B),max(C)];
 
-writematrix(maxes,'maxes.txt')
+writeMatrix(maxes,maxes.txt)
 
 writematrix(totalData, outputPath)

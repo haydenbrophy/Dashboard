@@ -3,5 +3,5 @@ temp = 'Temporary/tempwinddata.txt';
 fileID = fopen('data.txt','w');
 fprintf(fileID,data);
 fclose(fileID);
-outputfile = 'test.csv';
-tabulateWind('data.txt',pressdata,'test.csv')
+outputfile = 'test.txt';
+tabulateWind('data.txt',pressdata,'test.txt')
