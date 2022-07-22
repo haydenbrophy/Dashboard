@@ -1,7 +1,7 @@
-window.applicationCache.swapCache();
+window.applicationCache.update();
 
 A = 12;
-B = 15;
+B = 55;
 C = 59;
 D = 15;
 
