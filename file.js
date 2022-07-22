@@ -1,5 +1,4 @@
 window.applicationCache.swapCache();
-window.location.reload();
 
 A = 12;
 B = 15;
