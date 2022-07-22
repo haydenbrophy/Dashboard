@@ -1,7 +1,10 @@
+window.applicationCache.swapCache();
+window.location.reload();
+
 A = 12;
 B = 15;
-C = 9;
-D = 55;
+C = 59;
+D = 15;
 
 LIMIT = 20;
 
