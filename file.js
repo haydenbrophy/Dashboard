@@ -1,9 +1,9 @@
-window.applicationCache.update();
+$version = “1.0”;
 
-A = 12;
-B = 55;
-C = 59;
-D = 15;
+A = 22;
+B = 5;
+C = 9;
+D = 25;
 
 LIMIT = 20;
 
